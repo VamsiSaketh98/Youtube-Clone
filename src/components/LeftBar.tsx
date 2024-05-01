@@ -100,6 +100,11 @@ function BarWithMusic () {
     } />
 </div>
 }
+function BarwithNothing (){
+    return <div>
+        <BarElement Title={"Null"}  />
+    </div>
+}
 
 function BarElement({icon, title}: {icon: any; title: string;}) {
     return <div className="w-full rounded-xl bg-slate-950 hover:bg-gray-700 flex w-48 p-2 m-2 cursor-pointer">
